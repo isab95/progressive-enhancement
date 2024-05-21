@@ -1,0 +1,76 @@
+
+p{
+    font-family: serif;
+    word-spacing: 4px;
+    font-size: medium;
+    color:#4B0082;
+}
+
+q{
+    font-style: italic;
+    border-left: 3px solid;
+}
+
+.farmer{
+    border-color: bisque;
+}
+.vilager{
+    border-color: aqua;
+}
+
+a:link{
+    color:blue;
+}
+a:visited{
+    color:aquamarine;
+}
+a:hover{
+    color:red;
+}
+
+body{
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: radial-gradient(circle, #ff9bcd, #fa3afa, #ab03dc);
+    background-image: url(peakpx.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+blockquote{
+    max-width: 50%;
+    margin-right: 29%;
+    margin-left: 29%;
+    font-size: 160%;
+    background-color: gainsboro;
+    border-left: 3px solid;
+    border-color: firebrick;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+header h1{
+    background-color: yellow;
+}
+
+.good, .bad{
+    text-transform: capitalize;
+}
+.good{
+    color: green;
+}
+
+.bad{
+    color: red;
+}
+
+table{
+    tr:nth-child(even) {background-color: #f2f2f2;}
+    tr:nth-child(odd) {background-color: white;}
+}
+body::first p{
+    font-weight:bold;
+}
